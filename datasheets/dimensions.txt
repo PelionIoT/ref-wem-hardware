@@ -1,0 +1,102 @@
+All sizes are in mm.
+
+K64F + shield:
+  - base length: 81.35 (offsets are from this)
+    Ethernet connector: +4.80
+    microUSB connector: +1.35
+    microSD card: +7 (offset 14 from side, width 11)
+  - width: 53.5
+  - height: 34.1
+    rubber legs: +3.3
+    no shield: -13.6
+  - parts offset from PCB side: 1.42
+  - PCB thickness + solder joints: 3.25
+
+voltage regulator: 23.6W x 53.8L x 13.25H
+    breakoff area: -5L
+  - PCB thickness: 1
+    PCB solder joints: +.45
+
+WS2801 LED flat: 12.5W x 31.25L x 3.10H (5.35H with plastic tubing)
+  LED: 4.8 x 4.8, mounted 4.2 from bottom, 13.3 from left side
+
+WS2801 round LED string: 7.9D at the tip, 8.9D at the base
+  9H tip, 2H base, 9.05 x 16.15 PCB
+
+16x2 LCD:
+  - viewing area old: 16.40 x 64.50, holder offset 2.90 from top x 3.50 from left
+  - viewing area new: 14.1 x 64.5, holder offset 5.03 from top x 3.40 from left
+  - holder area: 71.50W x 24.35L x 6.50H, needs gap on mid right 13L at 4H
+  - PCB size: 80 x 36.2, offset from viewing area ~12 from top x 9 from left x ~6.50 from surface
+  - total height: 18 on the left side (w/ I2C board; 48W x 20.5L), 11 on the top right side
+
+New 16x2 LCD for Rev E:
+  - PCB 79.99W X 36.03L X 8.05H(this includes LCD)
+  - LCD casing 69.35W X 24.40L X 7.05
+  - viewable area 16.12 x 65.10, 2.10 side offset, 4-4.1 top/bottom offset from casing
+  - metal casing 24.5 x 69.3 x 7H, offset 6.35 from top, 5.10 from bottom, 5.3 right triangle side, 5.5 left side
+  - backlight triangle 17.75W, 2.9H
+  - Adafruit dimensions: 8.4H PCB+screen, 36W x 80.6L x 1H PCB
+
+96x96 OLED:
+  - visible circle D20
+
+AA battery (14500 battery):
+  - 49.2-50.5 mm (1.94-1.99 in) in length, including the button terminal
+  - 13.5-14.5 mm (0.53-0.57 in) in diameter
+  The positive terminal button should be a minimum 1 mm high and a maximum 5.5 mm in diameter.
+  The flat negative terminal should be a minimum diameter of 7 mm.
+
+battery clips:
+  - ~5 depth with battery inserted
+  - spacing between batteries: 14.60 (min: 8.40, max: 21)
+  - supported wall thickness: max 1.90
+
+enclosure: 120 x 80 + top lid
+  - inside curvature: R8 on either side
+
+Seeed/Grove sensor:
+  - 20.10 x 20.10 PCB with 4.70W x 2.30D grooves on either side and 2.15R circle holes
+  - long format sensor: 20.10 x 40.50, circle holes and grooves on the short side, one circle hole and one groove on a long side respectively
+  - min clearance with Grove cable: 16.40H (light sensor: 18.8H), 3.80 PCB + solder joints (PCB: 1.75)
+  - mount thickness: 2.70 WiFi, 2.60 sound, 2.45 temp, 1.75 light
+
+LiPo 18650 1S2P pack:
+  - 36.65W x 66.70L x 18.80H
+  - middle: 36.65W x 18.45H
+
+LiPo 18650 1S1P cell:
+  - 18.70W x 68.70L round (18.50W min)
+
+LiPo flat 1S1P 2500mAh:
+  - 48.30W x 61.70L x 7.30H
+
+LiPo charging circuit Adafruit Powerboost 1000C:
+  - PCB 36.60L x 22.80W x 7.25H (1.65H PCB only)
+  - PCB with USB plug 44.65L, 10.90H/11.70H with mounting flange
+  - USB plug: 13.20W x 5.90H / 14.68W x 7.16H with mounting flange (0.80H flange offset) / 7.00H+0.30H with backplate, hole is ~1.25H+PCB from ground, 1.30H pin height from PCB bottom, 8.00L from connector end to PCB
+  - micro USB flat on wall: 2.53 from outside; plug handle goes in through the wall ~1.80
+  - micro USB male plug: 10.55W x 8.30H, 3.20 plug offset from handle bottom, 7.00W x 2.25H x 5.60D plug
+
+power switch slider:
+  - housing 5.80W x 10.60L x 5.55H/7.90H with leads
+  - switch 2.95W x 2.95L x 3.10H, actuation space 6.40L, offset from bottom 1.35-1.38
+  - clip 4.55W x 4.95L x 0.40H
+  - leads offset from bottom ~2.60
+
+power switch slider (small SMD) for rev.E:
+  - housing 3.61W X 8.96L X 3.52H
+  - switch 1.5W X 1.5L X 2.0H
+  - switch track 3.6W X 1.53H
+  - switch track inset from housing 2.83W x 1.5H
+
+microUSB female plug (without/with mounting flange):
+  - 7.50W/7.90W x 2.50H/2.95H
+
+rev E board:
+  - 11.80-12.10 from top of LCD to bottom of PCB (including PCB thickness)
+  - 1.60 PCB thickness
+  - 3.50-3.75 LCD PCB offset from base PCB (including 1.00 LCD PCB thickness)
+  - 6.75-7.25 LCD metal casing height
+  - 40.80 LCD header length, 6.90 from left edge, 2.10 solder height
+  - 2.75 LCD backlight height, 17.75 width

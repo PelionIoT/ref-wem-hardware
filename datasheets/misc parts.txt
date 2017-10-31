@@ -1,0 +1,19 @@
+Grove Seeed 1.12" 96x96 OLED:
+http://wiki.seeed.cc/Grove-OLED_Display_1.12inch/
+http://www.instructables.com/id/Room-Air-Analyzer/
+http://www.mouser.com/ProductDetail/Seeed-Studio/104030011/?qs=sGAEpiMZZMvxSQPygxWTpe22ZQx2Z0IIbFuoXExcWhw%3d
+https://www.displaymodule.com/products/dm-lcd1602-402
+
+possible RGB/P9813: https://kutop.com/5v-waterproof-p9813-ic-50-nodes-rgb-led-pixel-light-string.html
+
+LED I2C driver:
+16-chan 12-bit PWM I2C https://www.amazon.com/dp/B00EIB0U7A
+48-chan 12-bit PWM cascadable serial(?) http://www.linear.com/product/LT8500
+48-chan 16-bit PWM with memory http://www.ti.com/lit/gpn/tlc5958
+
+Neopixel driver timing: https://wp.josh.com/2014/05/13/ws2812-neopixels-are-not-so-finicky-once-you-get-to-know-them/
+
+24-chan 12-bit PWM SPI breakout board, doesn't need per LED resistors: https://www.adafruit.com/product/1429
+
+air filter foam 15x24x3/16 https://www.amazon.com/gp/offer-listing/B000BO68BU
+air filter PVC mesh 12x 140mm https://smile.amazon.com/ThreeBulls-Cooler-Filter-Dustproof-Computer/dp/B01N950ZB6

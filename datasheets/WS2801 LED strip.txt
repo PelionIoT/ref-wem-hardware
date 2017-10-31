@@ -1,0 +1,16 @@
+Specifications: 
+
+1) Size: L500cm (5M) x W1.5cm x T0.4cm 
+2) Emit Color: dream magic color: Flash, Strobe, Fade, and Smooth.etc 
+3) Protection: non-Waterproof IP22 
+4) Working Voltage: 5V DC 
+5) IC chip: WS2801 
+6) LED Quantity: 32leds / m, 5meter / roll, one pixel IC control one 5050RGB 
+7) View angle: 120 ~ 140 
+8) Working Temperature: -20 to 50 
+9) Wave length(NM): R-650mcd, G-520mcd,B-460mcd 
+10) Wattage: max 6.4 W/meter 
+11) Color Temperature: RGB 
+12) PCB Background: black 
+
+https://www.amazon.com/NooElec-Addressable-Waterproof-Connectors-Pre-Soldered/dp/B008F05N54
