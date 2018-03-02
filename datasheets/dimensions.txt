@@ -1,36 +1,6 @@
 All sizes are in mm.
 
-K64F + shield:
-  - base length: 81.35 (offsets are from this)
-    Ethernet connector: +4.80
-    microUSB connector: +1.35
-    microSD card: +7 (offset 14 from side, width 11)
-  - width: 53.5
-  - height: 34.1
-    rubber legs: +3.3
-    no shield: -13.6
-  - parts offset from PCB side: 1.42
-  - PCB thickness + solder joints: 3.25
-
-voltage regulator: 23.6W x 53.8L x 13.25H
-    breakoff area: -5L
-  - PCB thickness: 1
-    PCB solder joints: +.45
-
-WS2801 LED flat: 12.5W x 31.25L x 3.10H (5.35H with plastic tubing)
-  LED: 4.8 x 4.8, mounted 4.2 from bottom, 13.3 from left side
-
-WS2801 round LED string: 7.9D at the tip, 8.9D at the base
-  9H tip, 2H base, 9.05 x 16.15 PCB
-
 16x2 LCD:
-  - viewing area old: 16.40 x 64.50, holder offset 2.90 from top x 3.50 from left
-  - viewing area new: 14.1 x 64.5, holder offset 5.03 from top x 3.40 from left
-  - holder area: 71.50W x 24.35L x 6.50H, needs gap on mid right 13L at 4H
-  - PCB size: 80 x 36.2, offset from viewing area ~12 from top x 9 from left x ~6.50 from surface
-  - total height: 18 on the left side (w/ I2C board; 48W x 20.5L), 11 on the top right side
-
-New 16x2 LCD for Rev E:
   - PCB 79.99W X 36.03L X 8.05H(this includes LCD)
   - LCD casing 69.35W X 24.40L X 7.05
   - viewable area 16.12 x 65.10, 2.10 side offset, 4-4.1 top/bottom offset from casing
@@ -38,28 +8,8 @@ New 16x2 LCD for Rev E:
   - backlight triangle 17.75W, 2.9H
   - Adafruit dimensions: 8.4H PCB+screen, 36W x 80.6L x 1H PCB
 
-96x96 OLED:
-  - visible circle D20
-
-AA battery (14500 battery):
-  - 49.2-50.5 mm (1.94-1.99 in) in length, including the button terminal
-  - 13.5-14.5 mm (0.53-0.57 in) in diameter
-  The positive terminal button should be a minimum 1 mm high and a maximum 5.5 mm in diameter.
-  The flat negative terminal should be a minimum diameter of 7 mm.
-
-battery clips:
-  - ~5 depth with battery inserted
-  - spacing between batteries: 14.60 (min: 8.40, max: 21)
-  - supported wall thickness: max 1.90
-
 enclosure: 120 x 80 + top lid
   - inside curvature: R8 on either side
-
-Seeed/Grove sensor:
-  - 20.10 x 20.10 PCB with 4.70W x 2.30D grooves on either side and 2.15R circle holes
-  - long format sensor: 20.10 x 40.50, circle holes and grooves on the short side, one circle hole and one groove on a long side respectively
-  - min clearance with Grove cable: 16.40H (light sensor: 18.8H), 3.80 PCB + solder joints (PCB: 1.75)
-  - mount thickness: 2.70 WiFi, 2.60 sound, 2.45 temp, 1.75 light
 
 LiPo 18650 1S2P pack:
   - 36.65W x 66.70L x 18.80H
@@ -93,7 +43,7 @@ power switch slider (small SMD) for rev.E:
 microUSB female plug (without/with mounting flange):
   - 7.50W/7.90W x 2.50H/2.95H
 
-rev E board:
+PCB board:
   - 11.80-12.10 from top of LCD to bottom of PCB (including PCB thickness)
   - 1.60 PCB thickness
   - 3.50-3.75 LCD PCB offset from base PCB (including 1.00 LCD PCB thickness)
