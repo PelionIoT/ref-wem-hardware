@@ -1,4 +1,4 @@
-# Workplace Environmental Monitor Enclosure
+## Workplace Environmental Monitor Enclosure
 
 This document contains information about the Workplace Environmental Monitor's:
 
