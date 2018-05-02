@@ -1,6 +1,6 @@
 ## Workplace Environmental Monitor Enclosure
 
-This document contains information about the Workplace Environmental Monitor's:
+This document contains information about the Workplace Environmental Monitors:
 
 - CAD - mechanical CAD and related files for the enclosure.
 - Datasheets - component datasheets.
@@ -72,7 +72,7 @@ For our in-house production, we have used manual sanding and painting for the be
 
 |1|2|3|4|5|6|7|
 |-|-|-|-|-|-|-|
-|Power|Wi-fi|Cloud|Update/FOTA|Light sensor|Temperature and humidity sensor|LCD and future sound sensor
+|Power|Wi-Fi|Cloud|Update/FOTA|Light sensor|Temperature and humidity sensor|LCD and future sound sensor
 
 #### LED color state matrix
 
