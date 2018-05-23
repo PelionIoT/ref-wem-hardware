@@ -24,17 +24,17 @@ For our in-house production, we have used manual sanding and painting for the be
 
 #### Rendered images
 
-![](images/earwig-01.png)
-![](images/earwig-02.png)
-![](images/earwig-03.png)
+<span class="images">![](https://s3.us-west-2.amazonaws.com/reference-docs-images/work_environ_mon_docs/earwig-01.png)</span>
+<span class="images">![](https://s3.us-west-2.amazonaws.com/reference-docs-images/work_environ_mon_docs/earwig-02.png)</span>
+<span class="images">![](https://s3.us-west-2.amazonaws.com/reference-docs-images/work_environ_mon_docs/earwig-03.png)</span>
 
 #### Finished look
 
-![](images/earwig-04.png)
-![](images/earwig-05.png)
-![](images/earwig-06.png)
-![](images/earwig-07.png)
-![](images/earwig-08.png)
+<span class="images">![](https://s3.us-west-2.amazonaws.com/reference-docs-images/work_environ_mon_docs/earwig-04.png)</span>
+<span class="images">![](https://s3.us-west-2.amazonaws.com/reference-docs-images/work_environ_mon_docs/earwig-05.png)</span>
+<span class="images">![](https://s3.us-west-2.amazonaws.com/reference-docs-images/work_environ_mon_docs/earwig-06.png)</span>
+<span class="images">![](https://s3.us-west-2.amazonaws.com/reference-docs-images/work_environ_mon_docs/earwig-07.png)</span>
+<span class="images">![](https://s3.us-west-2.amazonaws.com/reference-docs-images/work_environ_mon_docs/earwig-08.png)</span>
 
 ### Bringup
 
@@ -50,23 +50,23 @@ For our in-house production, we have used manual sanding and painting for the be
 ### Assembly
 
 1. Flush cut the leads at the edge of the PCB, so they fit under the enclosure rim.<br>
-    ![Leads](images/image2017-12-12_12-34-34.png)
+    <span class="images">![Leads](https://s3.us-west-2.amazonaws.com/reference-docs-images/work_environ_mon_docs/image2017-12-12_12-34-34.png)</span>
 1. Sand the light pipes to make them diffuse.
 1. Fill out the inside of the cloud icon with black marker or paint to prevent the LED from shining through. Make sure you do not cross the cloud edge (where the light pipe is).
 1. Remove the left half of the bottom clip to help the PCB go in easier.<br>
-    ![Remove](images/image2017-12-12_12-43-38.png)
+    <span class="images">![Remove](https://s3.us-west-2.amazonaws.com/reference-docs-images/work_environ_mon_docs/image2017-12-12_12-43-38.png)</span>
 1. Assemble the top plate with the upper ring, so the USB hole is at the bottom (below the LCD cutout). Push the pins down gently with a tool. Don't push the ring itself, or the pins could break. Make sure the plate is flush with the ring and no gaps are showing. Optionally, hot glue the pins in place to provide more durability.
 1. Insert light guides (don't glue them), and adjust the top of the marked tab to be an even height.
 1. Using a dab of glue (hot glue), put the tiny cylindrical light pipe in.<br>
-  ![Glue](images/image2017-12-12_12-53-47.png)
+  <span class="images">![Glue](https://s3.us-west-2.amazonaws.com/reference-docs-images/work_environ_mon_docs/image2017-12-12_12-53-47.png)</span>
 1. Assemble the bottom plate with the lower ring the same way as you assembled the top plate in step 5.
 1. Place the battery in the battery holder, and assemble the holder onto the bottom plate.<br>
-  ![Battery](images/image2017-12-12_13-3-46.png)
+  <span class="images">![Battery](https://s3.us-west-2.amazonaws.com/reference-docs-images/work_environ_mon_docs/image2017-12-12_13-3-46.png)</span>
 1. Remove the LCD's protective sheet, and insert the PCB into the top half of the enclosure. This is the trickiest step because the fit is tight. Align the connectors to the holes first, and then slide the PCB in and seat it into the guide. You have correctly inserted the PCB when there is no space between the LCD and the top plate of the enclosure. If possible, avoid putting fingerprints on the LCD.
 1. Insert the two round PCB clips, and twist each of them 90 degrees clockwise to lock the PCB in place.<br>
-  ![Clips](images/image2017-12-12_13-11-30.png)
+  <span class="images">![Clips](https://s3.us-west-2.amazonaws.com/reference-docs-images/work_environ_mon_docs/image2017-12-12_13-11-30.png)</span>
 1. Connect the battery to the PCB, and twist the lock the two enclosure halves. Test the basic functions, and ship it.<br>
-  ![Connect](images/image2017-12-12_13-12-17.png)
+  <span class="images">![Connect](https://s3.us-west-2.amazonaws.com/reference-docs-images/work_environ_mon_docs/image2017-12-12_13-12-17.png)</span>
 
 #### LED order
 
