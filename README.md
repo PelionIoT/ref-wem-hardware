@@ -16,7 +16,14 @@ Description: The PCB is a single board design. Test points are present for futur
 
 #### Manufacturing choices
 
-Due to the fact that the top part of the enclosure has built-in light channels, manufacturing choices are split in two categories. The first manufacturing choice is to print the top without light channels and adding them in-house, either through translucent material pouring (for example, epoxy or silicone gel) or through press-fitting acrylic cut parts. Both variants are difficult and are likely to yield low-quality results (for example, uneven surfaces or gaps). The second manufacturing choice is to print the top with a dual material process. This is the recommended action, even though it comes with a severe limitation in manufacturing processes. Only FDM and PolyJet can embed translucent material into a part. Of the two, FDM is the most cost effective, and PolyJet is the better looking. The exact difference in unfinished quality varies with the manufacturer. The recommended course of action is to get one unit with each of the two processes, and choose one to move forward with based on visual inspection.
+As currently designed, the top plate of the enclosure is meant to be printed with PolyJet technology. It has a very thin opaque layer on top, which makes the surface uniformly dark when powered off.
+The remaining parts of the enclosure can be manufactured with any small-volume 3D printing technology - such as SLA, FDM or PolyJet.
+
+If PolyJet is not available, a small modification to the top plate (removing the thin opaque layer to expose the light pipes all the way through) can make it printable with dual-material FDM. In this case, additional post-processing will be needed to get the same intended effect (completely opaque when powered off, but clearly showing the respective icon and/or light channel when the LED underneath is lit).
+
+When printing, please ensure that the objects are oriented such that the outside surfaces come out smooth (polished), in order to minimize or even avoid the need for any post-processing.
+
+For large volume manufacturing, the parts will require CAD modifications to accommodate whichever process is picked (e.g. wall drafting for injection molding, or separating the light pipes from the top plate for press fit). If you do any any such modifications, contributions to this repository are welcome.
 
 #### Finishing choices
 
