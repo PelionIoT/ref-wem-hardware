@@ -45,7 +45,8 @@ For our in-house production, we have used manual sanding and painting for the be
 
 ### Bringup
 
-1. Plug in the board. Make sure it enumerates as `CRP DISABLD`. On a Mac, this is under `/Volumes`.
+1. Connect power to the PCB, and switch it on. Increase the LCD contrast (knob labeled R16, located under the word "CLOUD" on the board) with a small Philips screwdriver, until you start seeing all white dots. Then, turn R16 in the opposite direction just until the dots disappear.
+1. Plug in the board to a USB port. Make sure it enumerates as `CRP DISABLD`. On a Mac, this is under `/Volumes`.
 1. Run this command: `rm /Volumes/CRP\ DISABLD/*; cp -X lpc11u35_mbed_cloud_connect_if_crc.bin /Volumes/CRP\ DISABLD/`
 1. Wait for DAPLink to be flashed (depending on your machine, between 7 and ~70 seconds).
 1. Turn the board off and then back on. Make sure it now enumerates as `DAPLINK`. If it still enumerates as before, you didn't wait long enough - go back to step 2.
@@ -72,7 +73,7 @@ For our in-house production, we have used manual sanding and painting for the be
 1. Remove the LCD's protective sheet, and insert the PCB into the top half of the enclosure. This is the trickiest step because the fit is tight. Align the connectors to the holes first, and then slide the PCB in and seat it into the guide. You have correctly inserted the PCB when there is no space between the LCD and the top plate of the enclosure. If possible, avoid putting fingerprints on the LCD.
 1. Insert the two round PCB clips, and twist each of them 90 degrees clockwise to lock the PCB in place.<br>
   <span class="images">![Clips](https://s3.us-west-2.amazonaws.com/reference-docs-images/work_environ_mon_docs/image2017-12-12_13-11-30.png)</span>
-1. Connect the battery to the PCB, and twist the lock the two enclosure halves. Test the basic functions, and ship it.<br>
+1. Connect the battery to the PCB, and twist to lock the two enclosure halves. Test the basic functions, and ship it.<br>
   <span class="images">![Connect](https://s3.us-west-2.amazonaws.com/reference-docs-images/work_environ_mon_docs/image2017-12-12_13-12-17.png)</span>
 
 #### LED order
